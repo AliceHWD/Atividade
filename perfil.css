@@ -1,0 +1,33 @@
+main{
+    height: 100vh;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    background-color: aliceblue;
+    width: 20vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 25px;
+    row-gap: 10px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+input{
+    width: 80%;
+    border: none;
+    height: 30px;
+    background-color: rgb(204, 220, 255);
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revisão Final</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button onclick="mudarModal()">Login / cadastro</button>
+    </header>
+
+    <main>
+      <dialog id="modal" >
+        <label for="nome">Nome:</label>
+        <input id="nome" oninput="pegar_nome()" type="text" />
+
+        <label for="email">Email:</label>
+        <input id="email" oninput="pegar_email()" type="email" />
+
+        <label for="tel" >Telefone:</label>
+        <input type="tel" id="telefone"  oninput=mascara_telefone()>
+
+        <label for="cpf">CPF:</label>
+        <input id="cpf" type="text" oninput="mascara_cpf()" />
+
+        <label for="senha">Senha:</label>
+        <input id="senha" oninput="pegar_senha()" type="password" />
+
+        <button id="enviar" onclick="mudarModal()" > <a href="perfil.html">Enviar</a> </button>
+      </dialog>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

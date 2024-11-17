@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: dodgerblue;
+}
+
+main{
+    height: 90vh;
+}
+
+header{
+    height: 10vh;
+    background-color: rgb(122, 179, 111);
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color:rgb(61, 87, 204);
+    padding: 10px;
+    border-radius: 45px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+dialog{
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    color: white;
+}
